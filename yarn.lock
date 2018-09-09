@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/mime@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
-
 "@types/node@^10.9.4":
   version "10.9.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.4.tgz#0f4cb2dc7c1de6096055357f70179043c33e9897"
@@ -16,7 +12,7 @@ mime@^2.3.1:
 
 "ts-in-js-1@https://github.com/joma74/ts-in-js-1.git":
   version "1.0.0"
-  resolved "https://github.com/joma74/ts-in-js-1.git#0af39af470cce95be9d407462b2886a509c9f94f"
+  resolved "https://github.com/joma74/ts-in-js-1.git#884b05cd93e00cada4b598b0a76bdb32a6974c18"
   dependencies:
     mime "^2.3.1"
     typescript "^3.1.0-dev.20180906"
