@@ -12,6 +12,8 @@ var clazz1b = require("ts-in-js-1/clazz1b")
 var clazz1aInstance = new clazz1a();
 var clazz1bInstance = new clazz1b(clazz1aInstance);
 
+var globalstring=aglobalstringFromTsInJs2
+
 /**
  * ISSUE 
  * 1. Only on <reference types="ts-in-js-1/types/global" getErrorAsString and clazz1bGlobalVar are available for code completion
