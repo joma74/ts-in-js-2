@@ -1,0 +1,21 @@
+{
+  "name": "ts-in-js-2",
+  "version": "1.0.0",
+  "description": "Show issues of ts in js",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc_validate_watch": "node_modules/typescript/bin/tsc --project ./jsconfig.json --noEmit true --traceResolution true --watch",
+    "tsc_validate": "node_modules/typescript/bin/tsc --project ./jsconfig.json --noEmit true",
+    "tsc_log_validate": "/bin/bash -c 'node_modules/typescript/bin/tsc --project ./jsconfig.json --noEmit true --traceResolution true | tee target/tsc.trace.log; echo $?'",
+    "test": "yarn tsc_validate"
+  },
+  "dependencies": {
+    "ts-in-js-1": "https://github.com/joma74/ts-in-js-1.git",
+    "typescript": "^3.1.0-dev.20180906"
+  },
+  "devDependencies": {
+    "@types/mime": "^2.0.0",
+    "@types/node": "^10.9.4"
+  }
+}

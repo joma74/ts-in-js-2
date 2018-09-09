@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"checkJs": true,
+		"noEmit": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"strict": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"target": "es5",
+        "baseUrl": ".",
+        "lib": [
+            "es2015",
+            "dom"
+		],
+		"maxNodeModuleJsDepth": 1
+	},
+    "exclude": [
+        "node_modules"
+    ],
+    "typeAcquisition": {
+        "enable": false
+    }
+}
