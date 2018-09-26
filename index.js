@@ -1,4 +1,5 @@
-/// <reference types="ts-in-js-1/types/global" />
+/// <reference types="ts-in-js-1/types/std-global" />
+/// <reference types="ts-in-js-1/types/node-global" />
 
 /**
  * @typedef {import("ts-in-js-1").Clazz1a} Clazz1a
@@ -22,11 +23,11 @@ var globalstring=aglobalstringFromTsInJs2
  * 4. After that, one can assign anything to clazz1bGlobalVar, even a string
  */
 global.getErrorAsString(new Error("abc"))
-global.clazz1bGlobalVar="clazz1bInstance"
+global.clazz1bGlobalVar=clazz1bInstance
 
-var resultTsInJs1 = tsinjs1.clazz1bInstance.getExtensionFor("text/html");
+var resultTsInJs1 = tsinjs1.member1bClazz1a.getExtensionFor("text/html");
 
-tsinjs1.clazz1bInstance.getErrorAsString(new Error("abc"))
+tsinjs1.getErrorAsString(new Error("abc"))
 
 var resultTsInJs2 = clazz1bInstance.getExtensionFor("text/html");
 

@@ -11,10 +11,10 @@
     "test": "yarn tsc_validate"
   },
   "dependencies": {
-    "ts-in-js-1": "https://github.com/joma74/ts-in-js-1.git",
-    "typescript": "^3.1.0-dev.20180906"
+    "ts-in-js-1": "https://github.com/joma74/ts-in-js-1.git#ts-issue-global-demo"
   },
   "devDependencies": {
-    "@types/node": "^10.9.4"
+    "@types/node": "^10.9.4",
+    "typescript": "^3.2.0-dev.20180926"
   }
 }

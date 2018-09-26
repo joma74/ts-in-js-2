@@ -3,20 +3,19 @@
 
 
 "@types/node@^10.9.4":
-  version "10.9.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.4.tgz#0f4cb2dc7c1de6096055357f70179043c33e9897"
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.11.0.tgz#ddd0d67a3b6c3810dd1a59e36675fa82de5e19ae"
 
 mime@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/mime/-/mime-2.3.1.tgz#b1621c54d63b97c47d3cfe7f7215f7d64517c369"
 
-"ts-in-js-1@https://github.com/joma74/ts-in-js-1.git":
+"ts-in-js-1@https://github.com/joma74/ts-in-js-1.git#ts-issue-global-demo":
   version "1.0.0"
-  resolved "https://github.com/joma74/ts-in-js-1.git#884b05cd93e00cada4b598b0a76bdb32a6974c18"
+  resolved "https://github.com/joma74/ts-in-js-1.git#5f06499c4c7e691bb6587e99ea64755f64170609"
   dependencies:
     mime "^2.3.1"
-    typescript "^3.1.0-dev.20180906"
 
-typescript@^3.1.0-dev.20180906:
-  version "3.1.0-dev.20180907"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.0-dev.20180907.tgz#3a56e9934287224e8dd8d1d0329f5bb65d652436"
+typescript@^3.2.0-dev.20180926:
+  version "3.2.0-dev.20180926"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.0-dev.20180926.tgz#75eda57fd2e10925fefdef32fdc5edf5b442d375"
